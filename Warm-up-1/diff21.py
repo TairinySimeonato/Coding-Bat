@@ -5,6 +5,7 @@ def diff21(n):
   if n <= 21:
 # return its absolute difference between n and 21:
     return abs(21 - n)
+    
 # If the int is greater than 21:
   else:
 # return a value that is double the absolute difference between n and 21:
