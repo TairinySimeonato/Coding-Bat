@@ -1,6 +1,6 @@
 # Coding-Bat level 1 sections
 * Warmup-1 - DONE
-* String-1
+* String-1 - DONE
 * List-1
 * Logic-1
 
