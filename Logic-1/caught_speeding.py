@@ -20,7 +20,7 @@ def caught_speeding(speed, is_birthday):
   elif is_birthday and speed <= 65:
     return no_ticket
     
-  elif is_birthday and speed >= 66 and speed <=85:
+  elif is_birthday and speed >= 66 and speed <= 85:
     return small_ticket
     
   elif is_birthday and speed >= 86:
