@@ -4,19 +4,24 @@
 # If speed is 81 or more, the result is 2. Unless it is your birthday -- on that day, your speed can be 5 higher in all cases.
 
 def caught_speeding(speed, is_birthday):
-  if not is_birthday:
-    if speed <= 60:
-      return 0
-    if speed >= 61 and speed <= 80:
-      return 1
-    if speed >= 81:
-      return 2
+  no_ticket = 0
+  small_ticket = 1
+  big_ticket = 2
+  
+  if not is_birthday and speed <= 60:
+    return no_ticket
+    
+  elif not is_birthday and speed >= 61 and speed <= 80:
+    return small_ticket
+    
+  elif not is_birthday and speed >= 81:
+    return big_ticket
       
-      
-  if is_birthday:
-    if speed <= 65:
-      return 0
-    if speed >= 66 and speed <= 85:
-      return 1
-    if speed >= 86:
-      return 2
+  elif is_birthday and speed <= 65:
+    return no_ticket
+    
+  elif is_birthday and speed >= 66 and speed <=85:
+    return small_ticket
+    
+  elif is_birthday and speed >= 86:
+    return big_ticket
