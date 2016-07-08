@@ -2,7 +2,7 @@
 * Warmup-1 - DONE
 * String-1 - DONE
 * List-1 - DONE
-* Logic-1
+* Logic-1 - DONE
 
 # Coding-Bat level 2 sections
 * Warmup-2
