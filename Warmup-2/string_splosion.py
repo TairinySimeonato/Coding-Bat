@@ -5,3 +5,5 @@ def string_splosion(str):
   for i in range (len(str)):
     result += str[:i+1]
   return result
+
+# I may have looked this up
