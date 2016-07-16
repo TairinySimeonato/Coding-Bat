@@ -7,3 +7,6 @@ def has22(nums):
   return False
 
 # I had trouble with this one - we need to redo it later
+# we want more solution variants to ensure tai knows it
+# 1) look-behind using indexes
+# 2) look-behind using variables to save off last value
