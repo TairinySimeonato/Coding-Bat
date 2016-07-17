@@ -6,11 +6,9 @@ def sum13(nums):
   previous_number = 0
   
   for current_number in nums:
-  
     if current_number != 13 and previous_number != 13:
       count += current_number
   
     previous_number = current_number
-      
   return count
 
