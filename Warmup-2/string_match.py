@@ -1,5 +1,6 @@
 
-# REDO THISdef string_match(a, b):
+# REDO THIS
+def string_match(a, b):
   matches = 0
   
   string_to_check = a
